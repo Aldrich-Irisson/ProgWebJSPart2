@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/button.css">
+    <script src="Scripts/Ejercicio10.js"></script>
+</head>
+
+<body>
+    <button onclick="location.href='/index.html#EjX'">Regresar</button><br>
+    <h3>10.10 Use un arreglo unidimensional para resolver el siguiente problema: una empresa paga a su personal de ventas con
+        base en comisiones. El personal de ventas recibe $200 por semana más el 9 porciento de sus ventas brutas para
+        esa semana. Por ejemplo, un vendedor con ventas brutas de $5000 en una semana recibe $200 más el 9 por ciento de
+        $5000, o un total de $650. Escriba una secuencia de comandos (usando un arreglo de contadores) que obtenga las
+        ventas brutas por cada empleado por medio de un formulario de HTML5 y determine cuántos vendedores obtuvieron
+        salarios en cada uno de los siguientes rango (suponga que el salario de cada vendedor se trunca a un monto
+        entero):
+        <ol>
+            <li>$200 a 299</li>
+            <li>$300 a 399</li>
+            <li>$400 a 499</li>
+            <li>$500 a 599</li>
+            <li>$600 a 699</li>
+            <li>$700 a 799</li>
+            <li>$800 a 899</li>
+            <li>$900 a 999</li>
+            <li>$1000 y más</li>
+        </ol>
+    </h3>
+    <div class="boxContent">
+        <form action="#">
+            <label>
+                Venta bruta:
+                <input type="number" name="Venta bruta" id="campoVenta">
+            </label>
+            <input type="button" value="Calcular" id="botonCalcular">
+            <p id="resultado"></p>
+        </form>
+        <p id="campoRangos"></p>
+        
+    </div>
+</body>
+
+</html>

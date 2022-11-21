@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(185, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    border-color: black;
+    border-width: 2px;
+}
+
+li {
+    font-size: 18px;
+    text-align: left;
+}
+
+main {
+    background-color: rgb(248, 179, 248);
+    width: 90%;
+    border: 1px solid black;
+}
+
+@media (min-width: 1000px){
+    .nivelar {
+        height: 158%;
+    }
+    
+    .nivelar2 {
+        height: 110%;
+    }
+}
+
+@media (min-width: 915px) {
+    .principal {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .capitulo {
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+    }
+
+    .principal__submenu {
+        border-top: 1px solid black;
+    }
+
+    .submenu {
+        border-right: 1px solid black;
+    }
+}
+
+@media (min-width: 460px) {
+    .capitulo {
+        border-top: 1px solid black;
+    }
+
+    .submenu {
+        border-right: 1px solid black;
+    }
+    
+    .principal__submenu {
+        border-top: 1px solid black;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+

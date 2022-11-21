@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 9</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/button.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/ejerAuto.css">
+</head>
+
+<body>
+    <button onclick="location.href='/index.html#EjX'">Regresar</button><br>
+    <h3>10.9 Considere un arreglo de dos por tres que almacena enteros.</h3>
+    <br>
+    <ol type="a">
+        <li>Escriba una instrucción para declarar y crear el arreglo t. <br>
+            <p>var t = new Array( new Array(2), new Array(3) );</p>
+        </li>
+        <li>¿Cuántas filas tiene t? <br>
+            <p>2</p>
+        </li>
+        <li>¿Cuántas columnas tiene t? <br>
+            <p>3</p>
+        </li>
+        <li>¿Cuántos elementos tiene t?<br>
+            <p>6</p>
+        </li>
+        <li>Escriba los nombres de todos los elementos en la fila 1 de t.<br>
+            <p>t[0][0], t[0][1], t[0][2].</p>
+        </li>
+        <li>Escriba los nombres de todos los elementos en la tercera columna de t. <br>
+            <p>t[0][2], t[1][2].</p>
+        </li>
+        <li>Escriba una sola instrucción para establecer el elemento de t en la fila 1 y la columna 2 en cero. <br>
+            <p>t[0][1] = 0;</p>
+        </li>
+        <li>Escriba una serie de instrucciones para inicializar cada elemento de t en cero. <br>
+            <p>t[0][0] = 0;<br>
+                t[0][1] = 0;<br>
+                t[0][2] = 0;<br>
+                t[1][0] = 0;<br>
+                t[1][1] = 0;<br>
+                t[1][2] = 0;</p>
+        </li>
+        <li>Escriba una instrucción for anidada para inicializar cada elemento de t en cero. <br>
+            <p>for(var x in t){
+                for(var y in t[x]){
+                t[x][y] = 0;
+                }
+                }</p>
+        </li>
+        <li>Escriba una serie de instrucciones para determinar e imprimir el valor más pequeño en el arreglo t. <br>
+            <p>document.writeln(Math.min(...t));</p>
+        </li>
+        <li>Escriba una instrucción sin repetición para mostrar los elementos de la primera fila de t. <br>
+            <p>document.writeln(t[0][0]); <br>
+                document.writeln(t[0][1]); <br>
+                document.writeln(t[0][2]);</p>
+        </li>
+        <li>Escriba una serie de instrucciones para imprimir el arreglo t en un formato tabular ordenado. Liste los
+            índices de columnas como encabezados a lo largo de la parte superior y liste los índices de fila en la parte
+            izquierda de cada fila. <br>
+            <p><code class="correc">
+                var t = [ <br>
+                    [1,2,3], <br>
+                    [4,5,6] <br>
+                ]; <br>
+                document.writeln("&lt;table>&lt;thead>&lt;th>&lt;/th>&lt;th>0&lt;/th>&lt;th>1&lt;/th>&lt;th>2&lt;/th>&lt;tbody>"); <br>
+                for(var x in t){ <br>
+                    document.writeln("&lt;tr>&lt;td>" + x + "&lt;/td>"); <br>
+                    for(var y in t[x]){ <br>
+                        document.writeln("&lt;td>" + t[x][y] + "&lt;/td>");<br>
+                    } <br>
+                } <br>
+                document.writeln("&lt;/tbody>&lt;/table>");
+            </code></p>
+        </li>
+    </ol>
+</body>
+
+</html>

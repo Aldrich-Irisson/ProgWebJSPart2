@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 11</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/button.css">
+</head>
+
+<body>
+    <button onclick="location.href='/index.html#EjX'">Regresar</button><br>
+    <h3>10.11 Escriba instrucciones que realicen operaciones para un arreglo unidimensional:</h3>
+    <ol type="a">
+        <li>Establecer los 10 elementos del arreglo cuentas en ceros. <br>
+            <p>for(var c in cuentas){<br>
+                cuentas[c] = 0;<br>
+                }</p>
+        </li>
+        <li>Sumar 1 a cada uno de los 15 elementos del arreglo bono. <br>
+            <p>for(var b in bono){<br>
+                bono[b] ++;<br>
+                }</p>
+        </li>
+        <li>Mostrar los cinco valores del arreglo mejoresPuntuaciones, separado por espacios. <br>
+            <p>document.writeln("&lt;p>"); <br>
+                for(var m in mejoresPuntuaciones){<br>
+                document.writeln(mejoresPuntuaciones[m] + " ");<br>
+                } <br>
+                document.writeln("&lt;/p>");</p>
+        </li>
+    </ol>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+button {
+    background-color: white;
+    border: dotted;
+    color: blue;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 40px;
+    width: 100px;
+}
+
+button:hover {
+    background-color: black;
+    color: red;
+}

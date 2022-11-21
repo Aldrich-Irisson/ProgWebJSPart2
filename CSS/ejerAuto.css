@@ -1,0 +1,37 @@
+b {
+    font-size: 130%;
+    font-weight: bold;
+    color: green;
+}
+
+code,
+pre {
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+strong {
+    color: red;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+u {
+    font-size: 14pt;
+    font-weight: bold;
+    color: red;
+}
+
+.codigo {
+    color: blue;
+    font-weight: bold;
+}
+
+.correc {
+    color: black;
+}

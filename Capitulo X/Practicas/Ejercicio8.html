@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 8</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/button.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/ejerAuto.css">
+</head>
+
+<body>
+    <button onclick="location.href='/index.html#EjX'">Regresar</button><br>
+    <h3>10.8 Escriba instrucciones de JavaScript para realizar cada una de las siguientes tareas:</h3>
+    <br>
+    <ol type="a">
+        <li>Mostrar el valor del séptimo elemento del arreglo f.<br>
+            <p class="codigo">document.writeln(f[6]);</p>
+        </li>
+        <li>Inicializar cada uno de los cinco elementos del arreglo unidimensional g en 8.<br>
+            <p class="codigo">var g = [8,8,8,8,8];</p>
+        </li>
+        <li>Calcular el total de los elementos del arreglo c, que contiene 100 elementos numéricos.<br>
+            <p class="codigo">var total = 0;<br>
+                for ( var a in c ){<br>
+                total += c[a];<br>
+                }</p>
+        </li>
+        <li>Copiar el arreglo a de 11 elementos en la primera porción del arreglo b, que contiene 34 elementos.<br>
+            <p class="codigo">for( var x in a ){ <br>
+                b[x] = a[x]; <br>
+                }</p>
+        </li>
+        <li>Determinar e imprimir el valor más pequeño y el más grande contenido en el arreglo w de 99 elementos de
+            punto flotante.<br>
+            <p class="codigo">document.writeln(Math.min(...w));<br>
+                document.writeln(Math.max(...w));</p>
+        </li>
+    </ol>
+</body>
+
+</html>
