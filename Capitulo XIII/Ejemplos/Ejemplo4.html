@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un formulario que utiliza focus y blur</title>
+    <link rel="stylesheet" type="text/css" href="../../CSS/button.css">
+    <script src="Scripts/focusblur.js"></script>
+</head>
+
+<body>
+    <button onclick="location.href='../../index.html#EjmXIII'">Regresar</button><br>
+    <form id="miFormulario" action="">
+        <p><label class="fixed" for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Escriba su nombre">
+        </p>
+        <p><label class="fixed" for="email">E-mail: </label>
+            <input type="email" id="email" placeholder="Escriba su e-mail">
+        </p>
+        <p><label>Haga clic aquí si le gusta este sitio
+                <input type="checkbox" id="gusta"></label></p>
+        <p><label for="comentarios">¿Comentarios?</p>
+        <textarea id="comentarios" placeholder="Escriba aquí sus comentarios"></textarea>
+        <p><input id="enviar" type="submit">
+            <input id="reiniciar" type="reset">
+        </p>
+    </form>
+    <p id="textoAyuda"></p>
+</body>
+
+</html>

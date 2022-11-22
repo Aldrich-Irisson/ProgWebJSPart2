@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsquedas de Twitter</title>
+    <link rel="stylesheet" type="text/css" href="../../CSS/button.css">
+    <link rel="stylesheet" type="text/css" href="../../CSS/estilo.css">
+    <script src="Scripts/BusquedasFavoritasTwitter.js"></script>
+</head>
+
+<body>
+    <button onclick="location.href='../../index.html#EjmXI'">Regresar</button><br>
+    <hl>Búsquedas favoritas de Twitter</hl>
+    <p id="mensajeBienvenida"></p>
+    <form action="#">
+        <p><input id="consulta" type="text" placeholder="Introduzca la consulta de búsqueda de Twitter">
+            <a href="https://dev.twitter.com/docs/using-search">
+                Operadores de búsqueda de Twitter</a>
+        </p>
+        <p><input id="etiqueta" type="text" placeholder="Etiquete su consulta">
+            <input type="button" value="Guardar" id="botonGuardar">
+            <input type="button" value="Borrar todas las búsquedas guardadas" id="botonBorrar">
+        </p>
+        </fom>
+        <h1>Búsquedas etiquetadas previamente</h1>
+        <div id="busquedas"></div>
+</body>
+
+</html>
