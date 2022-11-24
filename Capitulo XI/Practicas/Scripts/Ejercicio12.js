@@ -1,0 +1,18 @@
+function iniciar(){
+    var boton = document.getElementById("imprimir");
+    boton.addEventListener("click", validar, false);
+}
+
+function validar(){
+    resultado.innerHTML = "";
+    if(!campoTexto.value == "")
+        imprimir();
+}
+
+function imprimir(){
+    var texto = campoTexto.value + "";
+    resultado.innerHTML = "Mayúsculas: " + texto.toUpperCase() + "<br>";
+    resultado.innerHTML += "Minúsculas: " + texto.toLowerCase();
+}
+
+window.addEventListener("load", iniciar, false);

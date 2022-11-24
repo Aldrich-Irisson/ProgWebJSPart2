@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 21</title>
+    <link rel="stylesheet" type="text/css" href="../../CSS/button.css">
+    <link rel="stylesheet" type="text/css" href="../../CSS/ejerAuto.css">
+    <script src="Scripts/Ejercicio21.js"></script>
+</head>
+
+<body>
+    <button onclick="location.href='../../index.html#EjXI'">Regresar</button><br>
+    <h3>11.21 Escriba un programa que lea una palabra de cinco letras proveniente del usuario, y que produzca todas las
+        posibles cadenas de tres letras que puedan derivarse de las letras de la palabra con cinco letras. Por ejemplo,
+        las palabras de tres letras producidas a partir de la palabra "trigo" son "rio", "tio" y "oir".</h3>
+    <div>
+        <p>Nota: Las palabras de tres letras son tomadas de una arreglo propio, por lo que es posible que no se
+            encuentren 3 y/o ninguna palabra derivada. También no se contemplan los acentos.</p>
+        <form action="#">
+            <input type="text" name="Texto" id="campoTexto" pattern="[A-ZÑa-zñ]{5}">
+            <input type="button" value="Buscar" id="buscar">
+        </form><br>
+        <textarea id="resultado" cols="30" rows="10"></textarea>
+    </div>
+</body>
+
+</html>
